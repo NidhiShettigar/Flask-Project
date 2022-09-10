@@ -4,4 +4,8 @@ Home Page
 {% endblock %}
 {% block content %}
 <h1>Test</h1>
+<video controls="" autoplay="" loop="" name="media">
+    <source src={{url_for('static', filename="sample_for_html.mp4")}} type="video/mp4">
+</video>
+<p>video</p>
 {% endblock %}

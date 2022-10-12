@@ -1,0 +1,40 @@
+.wrapper {
+    width: 700px;
+    height:350px;
+    border:2px solid green;
+    padding:15px;
+}
+.uppleft {
+    display: inline;
+    margin-left: 30px;
+}
+canvas {
+    border:1px solid red;
+}
+#sliderwrapper {
+    display: inline-block;
+    position:relative;
+    width:37px;
+    height:300px;
+    border:1px solid blue;
+}
+#amount {
+    position:absolute;
+    left:5px;
+    top:5px;
+    margin-bottom:15px;
+    width:23px;
+    border:0;
+    color:#f6931f;
+    font-weight:bold;
+}
+#slider-vertical {
+    position:absolute;
+    left:10px;
+    top:40px;
+    width:15px;
+    height:225px;
+    border:0px;
+    color:#f6931f;
+    font-weight:bold;
+}

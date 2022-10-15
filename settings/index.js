@@ -1,3 +1,4 @@
+console.log("running");
 var startingValue = 20;
 
 // handles user moving the slider

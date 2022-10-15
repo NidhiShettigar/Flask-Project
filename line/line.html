@@ -1,0 +1,21 @@
+<head>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <script src="index.js"></script>
+    
+    <h1>draw line</h1>
+    
+      x1: <input type="number"  id="X1"><br>
+      y1: <input type="number"  id="Y1"><br>
+      x2: <input type="number"  id="X2"><br>
+      y2: <input type="number"  id="Y2"><br>
+      <button onclick='creationLine(document.getElementById("X1").value,document.getElementById("X2").value,document.getElementById("Y1").value,document.getElementById("Y2").value,"line")'>Draw</button>
+    
+    <div id="plane">
+      <div id="line"></div>
+      <div class="rect"></div>
+    </div>
+    
+    
+</body>

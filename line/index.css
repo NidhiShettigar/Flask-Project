@@ -1,0 +1,10 @@
+#line{
+    background-color: black;
+    position: absolute;
+    height: 5px;
+}
+.rect{
+    background-color: aqua;
+    height: 10px;
+    width: 100px;
+}
